@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <test thread-count="5" name="Test">
+   <parameter name="URLA" value="www.ebauy.com"/>
+    <parameter name="usernameA" value="tesutuser"/>
+     <parameter name="APIkeyA" value="keuy"/>
+
+    <classes>
+      
+      <class name="pkg.Tsttng"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
